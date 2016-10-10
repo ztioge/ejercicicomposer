@@ -1,2 +1,0 @@
-# ejercicicomposer
-Ejercicio utilizando composer

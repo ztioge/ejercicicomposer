@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "eb01c11fbad2f31ac4326632a4a3c091",
+    "content-hash": "83d1fe488d262c1215d0239197cf2b2a",
+    "packages": [
+        {
+            "name": "mascame/video-checker",
+            "version": "2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcmascarell/video-checker.git",
+                "reference": "93ddfd789bbcc764a64bbf8cdaf06f62e9922b40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcmascarell/video-checker/zipball/93ddfd789bbcc764a64bbf8cdaf06f62e9922b40",
+                "reference": "93ddfd789bbcc764a64bbf8cdaf06f62e9922b40",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mascame\\VideoChecker\\": "src/Mascame/VideoChecker"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Mascarell",
+                    "email": "marcmascarell@gmail.com"
+                }
+            ],
+            "description": "Check if a video is available online.",
+            "homepage": "https://github.com/marcmascarell/video-checker",
+            "keywords": [
+                "online video checker",
+                "video check",
+                "vimeo checker",
+                "youtube checker"
+            ],
+            "time": "2016-05-10 14:19:06"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

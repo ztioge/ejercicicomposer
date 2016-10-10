@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mascame/video-checker": "^2.3"
+    }
+}
