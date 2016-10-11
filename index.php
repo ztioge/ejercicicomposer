@@ -17,6 +17,10 @@
             <header>
                 <h1><?php echo $Media->title; ?></h1>
                 <p>By <?php echo $Media->authorName; ?></p>
+                
+                <div class="player">
+                    <?php echo $Media->html; ?>
+                </div>
             </header>
 </article>
 
