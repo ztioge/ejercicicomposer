@@ -4,27 +4,45 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite017c5f5c574b489f02de204c80c0e0a
+class ComposerStaticInit0231cde1d107e6f3fc967206dd4bd754
 {
     public static $prefixLengthsPsr4 = array (
-        'M' => 
+        'P' => 
         array (
-            'Mascame\\VideoChecker\\' => 21,
+            'Parkour\\' => 8,
+        ),
+        'E' => 
+        array (
+            'Essence\\Http\\' => 13,
+            'Essence\\Dom\\' => 12,
+            'Essence\\' => 8,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Mascame\\VideoChecker\\' => 
+        'Parkour\\' => 
         array (
-            0 => __DIR__ . '/..' . '/mascame/video-checker/src/Mascame/VideoChecker',
+            0 => __DIR__ . '/..' . '/fg/parkour/lib',
+        ),
+        'Essence\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/essence/http/src',
+        ),
+        'Essence\\Dom\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/essence/dom/src',
+        ),
+        'Essence\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/essence/essence/lib/Essence',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite017c5f5c574b489f02de204c80c0e0a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite017c5f5c574b489f02de204c80c0e0a::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0231cde1d107e6f3fc967206dd4bd754::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0231cde1d107e6f3fc967206dd4bd754::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

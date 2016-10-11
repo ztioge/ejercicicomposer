@@ -1,5 +1,5 @@
 {
     "require": {
-        "mascame/video-checker": "^2.3"
+        "essence/essence": "^3.3"
     }
 }
